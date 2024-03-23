@@ -20,7 +20,7 @@ html{
 }
 p{ color: white } /* ← Regra */
 body{
-    background-color: darkred;
+    background-color: navy;
 
     max-width: 300px;
     max-height: 80vh;

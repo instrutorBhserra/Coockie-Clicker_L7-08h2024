@@ -1,0 +1,50 @@
+/* ← Comentário → */
+/* ↑ Comentário */
+/*
+↓↓↓↓ Seletor */ 
+html{
+/*__↑ Inicio de bloco de declaraçao */
+/*___↓↓↓↓↓↓↓↓↓ Propriedade */
+    background-color: #111;
+/*__________________↑ Dois pontos */
+/*__________↓↓↓↓↓ Valor */
+    height: 100vh;
+/*_______________↑ Separador */
+    width: 100vh;
+/*__↑↑↑↑↑↑↑↑↑↑↑↑↑ Declaração */
+
+    display: flex;
+    justify-content: center;
+/*
+↓ Fim de bloco de declaração */
+}
+p{ color: white } /* ← Regra */
+body{
+    background-color: darkred;
+
+    max-width: 300px;
+    max-height: 80vh;
+
+    overflow: hidden;
+    margin: 0px;
+}
+h1{
+    color: white;
+    background-color: black;
+    text-align: center;
+
+    margin: 0px;
+    padding: 5px;
+}
+main{
+    background-color: navy;
+    display: flex;
+    flex-direction: column;
+}
+#target{
+    text-align: center;
+    font-size: 60px;
+}
+.grow{
+    flex-grow: 1;
+}
